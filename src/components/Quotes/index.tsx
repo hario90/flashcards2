@@ -1,6 +1,6 @@
 import { useState } from "react"
 import styles from "./styles.module.css"
-import { useGetQuotesQuery } from "../../features/quotes/quotesApiSlice"
+import { useGetQuotesQuery } from "../../state/quotes/quotesApiSlice"
 
 const options = [5, 10, 20, 30]
 
