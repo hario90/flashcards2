@@ -1,7 +1,7 @@
 import "./App.css"
 import AppHeader from "../AppHeader"
 import { Counter } from "../Counter"
-import { Quotes } from "../../features/quotes/Quotes"
+import { Quotes } from "../Quotes"
 import logo from "./logo.svg"
 import styles from "./styles.module.css";
 
