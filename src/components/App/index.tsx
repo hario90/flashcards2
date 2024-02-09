@@ -1,11 +1,14 @@
 import "./App.css"
-import { Counter } from "./features/counter/Counter"
-import { Quotes } from "./features/quotes/Quotes"
+import AppHeader from "../AppHeader"
+import { Counter } from "../Counter"
+import { Quotes } from "../../features/quotes/Quotes"
 import logo from "./logo.svg"
+import styles from "./styles.module.css";
 
 const App = () => {
   return (
     <div className="App">
+      <AppHeader className={styles.header}/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Counter />
