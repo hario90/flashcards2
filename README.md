@@ -14,7 +14,7 @@ Simple redux web app that may serve as template for future projects.
 [ ] Prettier
 [ ] React-Router
 [x] move all components to components folder
-[ ] rename features folder to state
+[x] rename features folder to state
 [ ] replace thunk with something else
 [x] setup classnames
 [ ] set up variables for styles
